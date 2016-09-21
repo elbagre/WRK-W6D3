@@ -1,1 +1,19 @@
 /* PHASE 7: Online */
+
+
+.profile-picture h4 {
+  background: #0c0;
+  border-bottom: 1px solid #070;
+  display: inline;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 11px;
+  left: -50px;
+  width: 100px;
+  padding: 5px 30px;
+  font-weight: 700;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 3px;
+}

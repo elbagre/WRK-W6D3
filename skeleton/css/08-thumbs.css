@@ -1,1 +1,27 @@
 /* PHASE 8: Thumbs */
+
+.friends {
+  width: 240px;
+}
+
+.friends img {
+  display: block;
+  width: 58px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.friends a {
+  display: block;
+  float: left;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.friends a:nth-of-type(n+7) {
+  padding-bottom: 0;
+}
+
+.friends a:nth-of-type(3n) {
+  padding-right: 0;
+}
