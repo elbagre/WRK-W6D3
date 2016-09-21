@@ -1,1 +1,39 @@
 /* PHASE 3: Layout */
+
+.content {
+  width: 900px;
+  background: #eee;
+  margin: 0 auto;
+  position: relative;
+  background: white;
+  border-bottom: 1px solid #aaa;
+  border-left: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+}
+
+.content-sidebar {
+  width: 200px;
+  padding: 10px 20px;
+  display: block;
+  float: left;
+  /*background: orchid;*/
+}
+
+.content-main {
+  width: 620px;
+  padding: 10px 20px;
+  display: block;
+  float: left;
+  /*background: pink;*/
+}
+
+.content::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  left: 240px;
+  top: 0;
+  bottom: 0;
+  background: #aaa;
+}
