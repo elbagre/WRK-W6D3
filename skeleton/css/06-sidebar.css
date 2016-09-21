@@ -24,9 +24,11 @@
 }
 
 .profile-nav > li {
-  padding: 5px;
-  font-weight: 700;
-  border-top: 1px solid #aaa;
+  display: block;
+}
+
+.profile-nav > li:hover {
+  background: #eee;
 }
 
 .profile-nav > li:last-child {
@@ -37,4 +39,11 @@
   font-size: 24px;
   font-weight: 700;
   padding: 20px 0;
+}
+
+.profile-nav a {
+  display: block;
+  padding: 5px;
+  font-weight: 700;
+  border-top: 1px solid #aaa;
 }
